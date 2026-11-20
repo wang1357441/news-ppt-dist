@@ -1,17 +1,17 @@
 {
-  "version": "1.4",
-  "notes": "v1.4：新增「启动时自动检查新版本」开关（默认关闭；打开后启动时只查一下并提示，绝不自动安装，装不装永远由你点）。本次发布同时用于实测 1.3→1.4 的完整更新链路：读清单 → 多镜像下载 → sha256 校验 → 更新助手替换 → 启动成功标记 → 失败自动回滚。",
-  "size": 11541431,
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.4",
+  "version": "1.5",
+  "notes": "v1.5：新增「启动时自动检查新版本」开关（默认关闭；打开后启动时只查一下并提示，绝不自动安装，装不装永远由你点）。本次发布同时用于实测 1.3→1.4 的完整更新链路：读清单 → 多镜像下载 → sha256 校验 → 更新助手替换 → 启动成功标记 → 失败自动回滚。",
+  "size": 11540671,
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.5",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.4/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.4/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.4/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.5/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.5/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.5/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.4/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.4/NewsPPTDownloader.exe",
-    "sha256": "390ceccfb21797208a9d6e7886fe79784f2fafb99f04a7dfb1672a945cae1269",
-    "size": 11541431
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.5/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.5/NewsPPTDownloader.exe",
+    "sha256": "f9e49abbf9fd9d564890e4c282400c957fb2619eb5af6fee18b5af2b6a5b5dc0",
+    "size": 11540671
   }
 }
