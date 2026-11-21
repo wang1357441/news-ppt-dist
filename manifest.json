@@ -1,17 +1,17 @@
 {
-  "version": "1.19",
-  "notes": "v1.19：把上一版加的代码签名去掉了。原因很简单——自己签的证书 Windows 不认，别人的电脑上不但不会显示发布者，属性里反而会标一句「签名无效」，想彻底不报警还得每台电脑手动装一次证书，比不签更麻烦。所以改回不签名：发给别人就是一个 exe，双击即用。第一次运行时出现「Windows 已保护你的电脑」，点「更多信息 → 仍要运行」就行，这一步和以前一样。",
-  "size": 11516727,
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.19",
+  "version": "1.20",
+  "notes": "v1.20：窗口左下角新增「关于」。点开能看到作者和获奖记录——2026 年 Robot Cup 青少年世界杯中国公开赛软件编程挑战初级组 C++ 一等奖、初级组总决赛 C++ 二等奖、Python 四级，以及 2025 年上半年成都市青少年人工智能素养提升活动 Python 项目三等奖、第四届成都市青少年电子信息技能创新大赛智能探测项目三等奖。这几项是从上往下一项一项浮现出来的，关掉再点开会重新播一遍。",
+  "size": 11520989,
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.20",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.19/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.19/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.19/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.20/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.20/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.20/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.19/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.19/NewsPPTDownloader.exe",
-    "sha256": "17b48ccff0513b5b9926d7d2bc50f05b946ff955e21c69b6a9bc1e27098368f2",
-    "size": 11516727
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.20/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.20/NewsPPTDownloader.exe",
+    "sha256": "ec037f8a073ff15e2ae03496a4cf2ceef59fa7e1757625ef6d7b31d36944bca6",
+    "size": 11520989
   }
 }
