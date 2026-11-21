@@ -1,17 +1,17 @@
 {
-  "version": "1.16",
-  "notes": "v1.16：修了一个要紧的隐患——程序认窗口原来只看标题，你打开软件所在的那个文件夹时，资源管理器的窗口标题也叫「新闻实时播报-P55工程」，会被误当成我们的窗口；更新时按这个错号去关窗口，可能把桌面和任务栏一起关掉。现在改成核对进程是不是浏览器，并且永不碰资源管理器等系统程序；关窗口前也多一道检查。另外：更新后窗口没弹出来时会自己重开（旧窗口还没关干净的情况），窗口本来就开着的话，再双击只是把它调到前面，不会多叠一个窗口。",
-  "size": 11518082,
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.16",
+  "version": "1.17",
+  "notes": "v1.17：同步更稳当了。1）每次同步前先核对本地和网站是不是同一期：同名且字节数一致，就直接算「已是最新」，不再重复下载。2）旧的 PPT 如果你正拿 PowerPoint 开着，程序不再硬删——只把新的一期放进来，旧的留给你看完，关掉后下次同步或下次启动自动清掉。3）本地同名文件被占用、需要覆盖时，会明确提示先关掉，不会报个看不懂的错。",
+  "size": 11519668,
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.17",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.16/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.16/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.16/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.17/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.17/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.17/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.16/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.16/NewsPPTDownloader.exe",
-    "sha256": "e471d255a4f8f9627ed0b3ad7542ec2b5c6eec33b0f7b0ca4d93487d78cf4fcd",
-    "size": 11518082
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.17/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.17/NewsPPTDownloader.exe",
+    "sha256": "b022bb1bc6146dfaae30cb31742dc2cfc43385c414d03c17067d8e59c750e95c",
+    "size": 11519668
   }
 }
