@@ -1,17 +1,17 @@
 {
-  "version": "1.17",
-  "notes": "v1.17：同步更稳当了。1）每次同步前先核对本地和网站是不是同一期：同名且字节数一致，就直接算「已是最新」，不再重复下载。2）旧的 PPT 如果你正拿 PowerPoint 开着，程序不再硬删——只把新的一期放进来，旧的留给你看完，关掉后下次同步或下次启动自动清掉。3）本地同名文件被占用、需要覆盖时，会明确提示先关掉，不会报个看不懂的错。",
-  "size": 11519668,
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.17",
+  "version": "1.18",
+  "notes": "v1.18：给程序加上了代码签名（数字签名）。装好后在 exe 上右键→属性→数字签名，能看到签名者，能证明这个 exe 是从我这发出去的、没被人改过。签名证书是自签的，第一次用如果提示「未知发布者」或「签名不受信任」，点「仍要运行」即可；想彻底没提示，把同目录的 p55-sign.cer 双击安装一次。",
+  "size": 11527728,
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.18",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.17/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.17/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.17/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.18/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.18/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.18/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.17/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.17/NewsPPTDownloader.exe",
-    "sha256": "b022bb1bc6146dfaae30cb31742dc2cfc43385c414d03c17067d8e59c750e95c",
-    "size": 11519668
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.18/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.18/NewsPPTDownloader.exe",
+    "sha256": "97a7eee75f57cb12dbb728ddd6ef3aff7feb7a4c2f30b45904c121f6bee9c399",
+    "size": 11527728
   }
 }
