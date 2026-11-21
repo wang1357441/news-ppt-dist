@@ -1,17 +1,17 @@
 {
-  "version": "1.8",
-  "notes": "v1.8：文件名定下来了。1）程序叫「新闻播报下载器.exe」、文件夹叫「新闻播报下载器」，都不带版本号，以后更新还是这个名字，不用再改。2）运行记录不再每 30 秒刷一行「已是最新」，同一期只记一次；日志超过 400KB 会自动截断，不会越滚越大。3）使用说明跟着版本自动更新。",
-  "size": 11551342,
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.8",
+  "version": "1.9",
+  "notes": "v1.9：加了 2 秒启动画面。打开软件后先把「王哥重工集团」一个字一个字打出来，然后橘色方框装着 P 从下面弹上来，「55工程」从方框里被抽出来，底下一道光条扫过——2 秒后自动进主界面，功能一切照旧。",
+  "size": 11552832,
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.9",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.8/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.8/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.8/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.9/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.9/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.9/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.8/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.8/NewsPPTDownloader.exe",
-    "sha256": "3b49cd62efdce1d01ecfd883a3607dd3cab698551b1c10905ad865412b5a1a2a",
-    "size": 11551342
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.9/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.9/NewsPPTDownloader.exe",
+    "sha256": "89d210a4e5f1c5083d5997a5cd6a53951ad65565845c3e468086656043e2c3ad",
+    "size": 11552832
   }
 }
