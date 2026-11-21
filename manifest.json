@@ -1,17 +1,17 @@
 {
-  "version": "1.9",
-  "notes": "v1.9：加了 2 秒启动画面。打开软件后先把「王哥重工集团」一个字一个字打出来，然后橘色方框装着 P 从下面弹上来，「55工程」从方框里被抽出来，底下一道光条扫过——2 秒后自动进主界面，功能一切照旧。",
-  "size": 11552832,
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.9",
+  "version": "1.10",
+  "notes": "v1.10：修一个会踩到的小毛病——重复双击 exe 不会再起第二个后台进程（以前会两个进程同时跑、重复下载同一期 PPT，窗口也越开越多）。现在只要有程序在后台，双击只会再开一个窗口，照样播 2 秒开机画面。",
+  "size": 11553695,
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.10",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.9/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.9/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.9/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.10/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.10/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.10/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.9/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.9/NewsPPTDownloader.exe",
-    "sha256": "89d210a4e5f1c5083d5997a5cd6a53951ad65565845c3e468086656043e2c3ad",
-    "size": 11552832
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.10/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.10/NewsPPTDownloader.exe",
+    "sha256": "4ceacae0aa3fc6abf2d3641397dc1a1aa3be644f1126edffd55b45a9cbc751de",
+    "size": 11553695
   }
 }
