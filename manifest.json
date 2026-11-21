@@ -1,18 +1,18 @@
 {
-  "version": "1.21",
-  "notes": "v1.21：更新通道加了签名校验——以后就算某个下载镜像被人动了手脚，程序也能发现并拒绝安装，不会装上假的。另外几处加固：下载前先看磁盘够不够；下完再确认拿到的是真正的 Windows 程序；配置文件改成断电也不会写坏的保存方式；实时同步线程万一意外停掉会自动重启。",
-  "size": 11527997,
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.21",
+  "version": "1.22",
+  "notes": "v1.22：为「把下载仓库转成私有」做准备——以后仓库设成私有，程序照样能检查更新、下载新版（走带钥匙的私有通道），别人从公网就搜不到、也拿不到安装包了。这一版界面上没有任何变化，平时用起来和以前完全一样。",
+  "size": 11532604,
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.22",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.21/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.21/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.21/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.22/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.22/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.22/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.21/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.21/NewsPPTDownloader.exe",
-    "sha256": "81a73f74e660cd007700d381a53464278259b770985c860210d97ab38843ca1a",
-    "size": 11527997
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.22/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.22/NewsPPTDownloader.exe",
+    "sha256": "cc605f48a9af670715a9e71755153dba8b177a65d6ddd1f47e6414eed37f2064",
+    "size": 11532604
   },
-  "sig": "dYgBGbUhebEJbkNNNlV8ZpoWLIHLMyi+ovAGB/W2xqsojiA70oVW5wAZ+E7WH0tvkkMODjvQCSuv4UjaxTv40Jvbjkwp7YQPQWYIPNJkD6mH6XZl9Rt58OdR1nM9wTVot/izc1QtiMNvl+i0wGahu7TxBF4PBDt8Kq4zHiDwXC4zsP+uiS2T6+o1/ASHvong8PR0fCjI3AUeLJPSXd2/eoA/0/wrJGf4ycWfmEuw01oesIhcxDsAtDoI2ISYrDHic14Bn2Tpuymz1py3LKegXspGHTPcE8Ws9u4q490WlbtckBlNcNlnkNYeuL01v7lP5Cl03RZjqDi6aPkVbGfpOg=="
+  "sig": "MZjvaId2Y9RGzzrgNBDpKjqzrZ05UQ3CIQRFlzCpmfi4gr1kRwa4AFxkp6UbQ3k+IAfW2pwAy0+4gGsbyBwSeJbAT0DIOWDLUS2LiAFiv8gHK4dWFcYGtA9YoJxtz5Ibju4YCZgXo7N7MF1BJ/EBMl5VKBN2VRTTuetFDaxEWlT+4xIy/MOnfXRhgKvQ3G26ejLUBVlhhbSjnfajT4ggMGE4E8sCMdgirNWWGbYOGAdta6DTIi1tNYIcdbIw7uEmpO80DYGDcunOaD4nZvy2u/1rLPivVkN7uAOguuWV/jLW8P/0pKM+qsJqx5s/5K5YgjKSlDGCRUPzKR31derqtg=="
 }
