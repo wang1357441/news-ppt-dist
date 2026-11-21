@@ -1,17 +1,18 @@
 {
-  "version": "1.20",
-  "notes": "v1.20：窗口左下角新增「关于」。点开能看到作者和获奖记录——2026 年 Robot Cup 青少年世界杯中国公开赛软件编程挑战初级组 C++ 一等奖、初级组总决赛 C++ 二等奖、Python 四级，以及 2025 年上半年成都市青少年人工智能素养提升活动 Python 项目三等奖、第四届成都市青少年电子信息技能创新大赛智能探测项目三等奖。这几项是从上往下一项一项浮现出来的，关掉再点开会重新播一遍。",
-  "size": 11520989,
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.20",
+  "version": "1.21",
+  "notes": "v1.21：更新通道加了签名校验——以后就算某个下载镜像被人动了手脚，程序也能发现并拒绝安装，不会装上假的。另外几处加固：下载前先看磁盘够不够；下完再确认拿到的是真正的 Windows 程序；配置文件改成断电也不会写坏的保存方式；实时同步线程万一意外停掉会自动重启。",
+  "size": 11527997,
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.21",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.20/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.20/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.20/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.21/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.21/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.21/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.20/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.20/NewsPPTDownloader.exe",
-    "sha256": "ec037f8a073ff15e2ae03496a4cf2ceef59fa7e1757625ef6d7b31d36944bca6",
-    "size": 11520989
-  }
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.21/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.21/NewsPPTDownloader.exe",
+    "sha256": "81a73f74e660cd007700d381a53464278259b770985c860210d97ab38843ca1a",
+    "size": 11527997
+  },
+  "sig": "dYgBGbUhebEJbkNNNlV8ZpoWLIHLMyi+ovAGB/W2xqsojiA70oVW5wAZ+E7WH0tvkkMODjvQCSuv4UjaxTv40Jvbjkwp7YQPQWYIPNJkD6mH6XZl9Rt58OdR1nM9wTVot/izc1QtiMNvl+i0wGahu7TxBF4PBDt8Kq4zHiDwXC4zsP+uiS2T6+o1/ASHvong8PR0fCjI3AUeLJPSXd2/eoA/0/wrJGf4ycWfmEuw01oesIhcxDsAtDoI2ISYrDHic14Bn2Tpuymz1py3LKegXspGHTPcE8Ws9u4q490WlbtckBlNcNlnkNYeuL01v7lP5Cl03RZjqDi6aPkVbGfpOg=="
 }
