@@ -1,17 +1,17 @@
 {
-  "version": "1.18",
-  "notes": "v1.18：给程序加上了代码签名（数字签名）。装好后在 exe 上右键→属性→数字签名，能看到签名者，能证明这个 exe 是从我这发出去的、没被人改过。签名证书是自签的，第一次用如果提示「未知发布者」或「签名不受信任」，点「仍要运行」即可；想彻底没提示，把同目录的 p55-sign.cer 双击安装一次。",
-  "size": 11527728,
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.18",
+  "version": "1.19",
+  "notes": "v1.19：把上一版加的代码签名去掉了。原因很简单——自己签的证书 Windows 不认，别人的电脑上不但不会显示发布者，属性里反而会标一句「签名无效」，想彻底不报警还得每台电脑手动装一次证书，比不签更麻烦。所以改回不签名：发给别人就是一个 exe，双击即用。第一次运行时出现「Windows 已保护你的电脑」，点「更多信息 → 仍要运行」就行，这一步和以前一样。",
+  "size": 11516727,
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.19",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.18/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.18/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.18/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.19/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.19/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.19/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.18/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.18/NewsPPTDownloader.exe",
-    "sha256": "97a7eee75f57cb12dbb728ddd6ef3aff7feb7a4c2f30b45904c121f6bee9c399",
-    "size": 11527728
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.19/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.19/NewsPPTDownloader.exe",
+    "sha256": "17b48ccff0513b5b9926d7d2bc50f05b946ff955e21c69b6a9bc1e27098368f2",
+    "size": 11516727
   }
 }
