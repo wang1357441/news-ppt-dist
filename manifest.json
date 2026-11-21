@@ -1,21 +1,21 @@
 {
-  "version": "1.23",
-  "notes": "v1.23：把 v1.22 试过的「私有仓库」方案撤掉了——那套做法要往程序里塞一把钥匙，被人扒出来照样能用，白费劲，所以退回公开更新，干净省事。这版真正加的是归属：程序里明写作者是王钧泽（四川成都的中学生），「关于」里能点开版权与使用声明全文，exe 属性里也能看到作者和版权。另外加了一次文件自检——程序会算自己文件的 sha256，跟作者签过名的发布清单比对，对不上就在「关于」里标一句「这个文件被改动过」。界面和用法没有变化。",
-  "size": 11532093,
+  "version": "1.24",
+  "notes": "v1.24：改了一句说明。之前写的是「他一行一行写出来的」，不实——代码是在 AI 编程助手的协助下完成的。现在如实写清楚：代码由 AI 助手协助编写，但要做成什么样、功能留不留、改完对不对，都是作者自己拿主意、自己在电脑上一次一次试出来的。功能、界面、用法都没变，只是把话说准。",
+  "size": 11531667,
   "author": "王钧泽（Wang Junze）",
   "copyright": "© 2026 王钧泽，保留所有权利 / All rights reserved",
   "notice": "https://github.com/wang1357441/news-ppt-dist/blob/main/AI_NOTICE.md",
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.23",
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.24",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.23/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.23/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.23/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.24/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.24/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.24/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.23/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.23/NewsPPTDownloader.exe",
-    "sha256": "8a06cda2037aab1a583e274aa6883d860eb610ab71153367fcfde88fe7e19fa8",
-    "size": 11532093
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.24/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.24/NewsPPTDownloader.exe",
+    "sha256": "39d9629f90b4e2af16b42c7aecebc0b910066e50fa7f83088922d7e1321949e8",
+    "size": 11531667
   },
-  "sig": "yTgwDlciovDnQwTdLMKDmhuGOlNZHk1vfAbV+v0/pwZ2INRhJBGVMuLwN+2bSiVSgtyXrNDTiZ7O0Vfr/CBDWET5+3dBNqpaMMMQJNMg9SukNVX4FgQkhz5tcn4hE10HQ4276J69RZli4FcGnxTZdT87lBf1g7P+dKiE0gjeM+IAQ1yQYFRhteqh1Bv5Fh3adRGkpc7psZL/TsIuU9ghoALVnmRoFVMCts67mas8o+lXfwTSUvmgdGKYJs5vroGkEEtSVa56Nbv2LzcyRX0j8aKb8tyU31nlSCPssBOEbmPiKYRGpwmurtbFt9FtRSpa9t6qrWzmzvKoYCNNoMsE5A=="
+  "sig": "mhD6MDbPg7CH9yYcN5dTNTsJmVBMbtKoXmaJDc5u+xcIQf4k+UIkliL7z37dFRzkYWvYdIYfRfLD1hlIpeXg6YetVmOAKb5/z44Dn2NgWIMfK0mvZ4I5MgdyeEpq1ZmbWvbXodLdauqJ9KeZeFBxLcciYtHdZZx6dJWpZvPV4+9RyW2LbzBjocFsVGFvcMNBwDd54GLBdOdBcKp7JqNOPGeyb9zyob61o3sJdOJ/1sfo4mZN5EhpeXdU5PGZpAgXBlP/jDCIFirP+secWiPKyyI7Py6a3Y/PjSNLg2ekuZjgjP6h65/0MPMHyLR9Lq/K1MjvWVW5Fe6eKaexGKW2HQ=="
 }
