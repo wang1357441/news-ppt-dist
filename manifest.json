@@ -1,17 +1,17 @@
 {
-  "version": "1.7",
-  "notes": "v1.7：这次专门收拾「文件越堆越多」。1）文件夹里只保留最新一份 PPT——新一期下好之后，旧的「新闻实时播报_日期_时间.pptx」自动删掉（扔进回收站，删错了还能找回来），你自己放进去的其它 pptx 不碰。2）安装新版本时旧程序会自动关闭、旧文件自动删除，不会再留一个旧窗口在桌面上。3）桌面上以前的旧版本文件夹（新闻播报下载器_v1.2 这种）下次启动自动清理：里面的 PPT 先搬到当前文件夹，然后只删程序自己的文件；文件夹里还有你自己放的东西就整个留着不动。以后更新只从网上发，不用再手动换本地文件。",
-  "size": 11551251,
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.7",
+  "version": "1.8",
+  "notes": "v1.8：文件名定下来了。1）程序叫「新闻播报下载器.exe」、文件夹叫「新闻播报下载器」，都不带版本号，以后更新还是这个名字，不用再改。2）运行记录不再每 30 秒刷一行「已是最新」，同一期只记一次；日志超过 400KB 会自动截断，不会越滚越大。3）使用说明跟着版本自动更新。",
+  "size": 11551342,
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.8",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.7/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.7/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.7/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.8/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.8/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.8/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.7/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.7/NewsPPTDownloader.exe",
-    "sha256": "aa006b1e12a0cd80636af22331ce1c8a15adcd983b4da7c0121540bc9bb78871",
-    "size": 11551251
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.8/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.8/NewsPPTDownloader.exe",
+    "sha256": "3b49cd62efdce1d01ecfd883a3607dd3cab698551b1c10905ad865412b5a1a2a",
+    "size": 11551342
   }
 }
