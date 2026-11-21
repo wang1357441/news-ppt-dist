@@ -1,17 +1,17 @@
 {
-  "version": "1.12",
-  "notes": "v1.12：1）改名「新闻实时播报-P55工程」，exe 图标和窗口/任务栏图标都换成橘色方框 P。2）下载改多线程：新版和 PPT 都切成 6 段同时拉，实测 PPT 从 22 秒降到 3 秒。3）重复双击不会再多起一个后台进程。4）2 秒开机动画照旧。",
-  "size": 11511836,
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.12",
+  "version": "1.13",
+  "notes": "v1.13：修「更新完窗口没出现」——上一版刚被关掉时 Edge 的配置目录还锁着，新窗口一启动就退了。现在会确认窗口真的开出来（按窗口标题核对），没出来自动重试，最多 3 次。",
+  "size": 11513745,
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.13",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.12/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.12/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.12/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.13/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.13/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.13/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.12/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.12/NewsPPTDownloader.exe",
-    "sha256": "4055f0d755494aa28bb052cdbe5ddd4194a79fc41f9a165d05907ed6e51fa3b0",
-    "size": 11511836
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.13/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.13/NewsPPTDownloader.exe",
+    "sha256": "256b17cfd1154371c01568489586ad0469824136f25b9adb1da0c79033a3466a",
+    "size": 11513745
   }
 }
