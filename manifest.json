@@ -1,21 +1,21 @@
 {
-  "version": "1.25",
-  "notes": "v1.25：更新这块挪了个位置。以前点「检查更新」，结果跑到页面最顶上去，下载进度条藏在最下面，两个地方都不在眼前。现在全部收进底部「检查更新」按钮正上方的一条里：有没有新版、下载进度（百分比、已下多少、速度）、「下载并安装」「安装并重启」，都在那儿，点完不用满屏找。下载时进度 0.5 秒刷新一次，走得顺。其余功能和用法没变。",
-  "size": 11534736,
+  "version": "1.26",
+  "notes": "v1.26：接着上一版收拾更新这块。「启动时自动检查新版本」那个开关原来混在「立即同步」的卡片里，跟更新的事分在两处，现在挪到最下面，紧挨着「检查更新」按钮。这样一来：要不要自动检查（开关）、有没有新版、下载进度、「更新 / 以后再说」，全在页面底部同一块，不用上下找。别的没变。",
+  "size": 11535892,
   "author": "王钧泽（Wang Junze）",
   "copyright": "© 2026 王钧泽，保留所有权利 / All rights reserved",
   "notice": "https://github.com/wang1357441/news-ppt-dist/blob/main/AI_NOTICE.md",
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.25",
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.26",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.25/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.25/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.25/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.26/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.26/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.26/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.25/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.25/NewsPPTDownloader.exe",
-    "sha256": "66b01483fcac57ee4f6e6d1fff613214adfb4047c8b6b888c252acb519ea8466",
-    "size": 11534736
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.26/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.26/NewsPPTDownloader.exe",
+    "sha256": "4368b9ed00aac9346adbb6e9b79c1228e59fc3478c8e6a255930c62390341b90",
+    "size": 11535892
   },
-  "sig": "uwkCtoXcqGUG0xVNrH3R8MHaQA2D1BqclirOCzv2hxhU4tksCbjSHl3JNSGFzL+XbXuiQyJIS6Zsy7MoZUNmWM5XTNGFTonEb7YpfRFDvQ7VDVauhyJ5BhUL614swY4Fz+XELv6F7VEgg+0zA5VjyBnWUncLAiG5M7ucMC9+NjBMBA3Sr/IBvHYWXXuaThlXb5FhQwK/BKctoW+mxelniOrVTpqjYBYrX9eEW2Vb4K6W82l16DJBJpwzH6OHO7+oYkTiCay3LFu3C0AqJK0Js5K4m91f7nlQ5EmVo3u0HX7reuaaxgJClw1yfSDCiMHdKIoT+WZCpDmURH9b+xXhFQ=="
+  "sig": "piVjjh/5SGHOSjYwKS924PfgT6ljYFwzCT0s0Ukfc/cvUgjlgOB7QUh1xO4GGs1J+QugLkDhcn2ASuUZ3EEHXX65l2kv/Msu5ydveAb4ORfPVis0IKULS+4i/c/t23VFfZ27icWBHf3GN9JWhK5Zd4Vg49PJ+9rt5YpxtrS5+HwxeALC/c2tf6hhShMBRLKHciBKWfPuuGdc56ha8XV0alWRwGgfMByVS3JBI1ElfUvIdOxfiQ/cvxW5g6i4UbxEJNDsPUJb/1AAgAs/MsW/P3O+O2NUmjkyAUTlFHTzl1GZ29WLrqZT5mjm7l+cufdw6G9pFHmlzPpfodVHqPcigQ=="
 }
