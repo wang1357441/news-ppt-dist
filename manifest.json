@@ -1,21 +1,21 @@
 {
-  "version": "1.30",
-  "notes": "v1.30：修两个真的会让程序用不下去的毛病。一是下载 PPT 会直接失败，界面上只留一句谁也看不懂的英文（cannot access local variable 'got'）——真实原因是下载中途出错后，程序没有把错误原样抛出来，反而卡在了下一步，把真正的原因盖掉了。现在会如实地告诉你是断网、被拦还是服务器那边的问题。二是版本号会「卡住」：程序把查到的新版本信息一直留着用，不看时间，所以作者发了新版，界面还停在旧的那个版本号上，点下载也只下到旧版。现在超过 5 分钟就会自己重新查一次。",
-  "size": 11546983,
+  "version": "1.31",
+  "notes": "v1.31：修「更新装不上、装完版本号还是旧的」这个毛病。原因是换文件之前没把旧程序关干净——Windows 不允许覆盖一个正在运行的程序，哪怕只是后台还留着一个没窗口的残留进程，文件也写不进去。于是更新助手试了十几次都没成功，只好把旧版放回去，所以更新完版本号一点没变，只会弹一句「更新失败」。现在安装的第一步就是先把所有同名进程结束掉，等系统把文件放开再换，重试次数也从 15 次加到 30 次。另外下载好的安装包以前是「移动」过去的，一次没成文件就没了；现在改成「复制」，失败还能重来。",
+  "size": 11547229,
   "author": "王钧泽（Wang Junze）",
   "copyright": "© 2026 王钧泽，保留所有权利 / All rights reserved",
   "notice": "https://github.com/wang1357441/news-ppt-dist/blob/main/AI_NOTICE.md",
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.30",
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.31",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.30/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.30/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.30/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.31/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.31/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.31/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.30/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.30/NewsPPTDownloader.exe",
-    "sha256": "91f08389231702bb757fdbeed82c7baeb2a433fb880f3352356c1d0c0fdcfdbc",
-    "size": 11546983
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.31/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.31/NewsPPTDownloader.exe",
+    "sha256": "1e0eb5bb4ad13aa8b7b9ab82e382736ca35c7f93bea833bf69a03d353be6d27b",
+    "size": 11547229
   },
-  "sig": "VOYfFOkR0H6EqQKFLlES09DGkOkurftOlr1I5N7DvpN4psjr2WUddDP56wpgyacFnZH/9lekrRGDEfbgF3rHeBQN/0jA+KutXleV/Y2jD7p03HgcN+FuhHVStn52sIXWkwC2ifKmpa0P9Sg8n6/+J+MQosvuyiCjH+qja/fMa/5V8PeyNBMZesPedQEUGWmOqfQZH1mjCFMrFiks/MMw72m0FMrxbLCHiZTxAwyVTuIcPjto6/DjpLDWK0fKmANj9J35wyR4plqdZlXi4PWG4BXrcdsEBU9g4O4Nzdy+MD0VCzlyvQ+LOE8nkIjt5dTVbue1RjBQ2omtNE4kUXqumQ=="
+  "sig": "gy3tadmr408ki0Mxp+qUrl56bKwqNM8NuihaPECyyFXkC8lK6qKdIQwb5HmC4a4dio7R+yog0WbIlbs369raDKbcNEjlNEwAAYLjLI57Qit87xqqm6odlTJUVN3xOYQXJXospgGY0IwJfna4ku2GiKTfrogOaLfISNjKClQMOs9JMe0Dh0H9808i+I9UKBZ1CwEhUvmETShrkkWW8nmyVeXkgG1moVQpL1sm1DQ+QiKeuMViJ3Nt3hJBTj3MyRXSD23nam2rdkF2lM7Eto9TpOf378t2BXxjMruUb2QxToAQUABceR3g01m1PHPGiG2tf5q8TNelgu9Hk29SdipLMA=="
 }
