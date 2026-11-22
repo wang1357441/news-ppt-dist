@@ -1,21 +1,21 @@
 {
-  "version": "1.33",
-  "notes": "v1.33：修「桌面上多出一个删不掉的文件夹」和「后台有个脚本一直不结束」。这两个是一个原因：更新时程序会启动一个后台小脚本来替换文件，而这个脚本默认「站在」程序所在的文件夹里。Windows 规定：一个文件夹如果被某个程序当作当前目录，就不允许删除——所以你看到那个文件夹是空的、里面什么也没有，却怎么都删不掉。现在脚本一启动就先离开这个目录，去系统的临时文件夹干活，更新结束后文件夹就能正常删除了。另外，旧版脚本在「要替换的那个程序已经不存在」的时候会无限重试、永远不退出，一直卡在后台（它还在的时候，那个文件夹更删不掉）。现在最多试 20 次就收手，并且把没用的东西自己清理干净；临时文件夹里堆的旧版本备份也改成只留最新一份，其余一小时后自动删掉。",
-  "size": 11549028,
+  "version": "1.34",
+  "notes": "v1.34：修「桌面上冒出一堆删不掉的 PPT 图标」。以前每半小时换新一期时，旧的 PPT 是「扔进回收站」处理的：一是不及时，二是窗口里的图标要等系统自己刷新才消失，桌面上就留下一堆点不动的空图标，看着像删不掉的垃圾；顺带每半小时往回收站塞一个三四十兆的文件，回收站很快就吃掉几个 G 的硬盘。现在旧的那份直接删掉、删完立刻通知系统把图标撤掉，回收站也不再被塞满。另外程序放在桌面上时，同步完不再弹一个「桌面」文件夹窗口糊在屏幕上。",
+  "size": 11550406,
   "author": "王钧泽（Wang Junze）",
   "copyright": "© 2026 王钧泽，保留所有权利 / All rights reserved",
   "notice": "https://github.com/wang1357441/news-ppt-dist/blob/main/AI_NOTICE.md",
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.33",
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.34",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.33/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.33/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.33/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.34/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.34/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.34/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.33/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.33/NewsPPTDownloader.exe",
-    "sha256": "0e264a064a57eacd85be15b7b815256f164c582a0069b7d9617abc59f15a38b9",
-    "size": 11549028
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.34/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.34/NewsPPTDownloader.exe",
+    "sha256": "628cb2517b6609c34a6d2d000527028b4abb26ec51687ba70277cf0fee4f8888",
+    "size": 11550406
   },
-  "sig": "TFUcoktdhly4awpMgqK89sRxLaYdRcsrAI1BlrIjSqlGcmvVAihHee48jXJNIkhU29IxBp6hrMkSh1+40cT3/1STBet1jxiXOr+PNYu6gQNVVq69J2loXXxsL7OA1y9M5d+YdnjBqB6QrPzGFyBmn+L9ghvD99PydLqMcnZWtzv6h1BiaiQebM/KgnsFblkV/RbMVSgpmpWAjgA2xkZzGy1reSQQkdVStmGGqG8PTJPBS8g4rCSKiKg7G/VWBIo3Femjc+8W/63YYrdNJaOM/SbMqx9tWs14a20OJzJm76xsXORg0VfDSh3Y/DfmWeuD/y3GWX8d0tJUXWIVgWlXQg=="
+  "sig": "Evshxone7inLmlWxqLh/3YmPSDjrwTE0sQJKq1a1kQ1rFcAPyYiKNkqD9ON/vscioPuksZ7JrMpeTBcd9LJQ89VfB7/SCfRoLkXP63D7Cqku8j8PFZW00po9iIRl9zr9J6cE9N0HGf6wrlchHuJBe66fFpNmDGiNKiHcs3ARIMxGhImAauh/CIMVSRjkHUjOZU1KmqSp3eMCq9HDRC1xZEBwbGT81CqW9peE9k0zYcN/0p5EOArqdoJYQRw+Eizw61qP85OM8+Vss8cYGnc6XKxh6wx+gkUmt1mUDHd8ghd4cb5lYdm1QR8yhBt14au9LkEabRLEk0jfz6y0bhQSxQ=="
 }
