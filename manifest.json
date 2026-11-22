@@ -1,21 +1,21 @@
 {
-  "version": "1.26",
-  "notes": "v1.26：接着上一版收拾更新这块。「启动时自动检查新版本」那个开关原来混在「立即同步」的卡片里，跟更新的事分在两处，现在挪到最下面，紧挨着「检查更新」按钮。这样一来：要不要自动检查（开关）、有没有新版、下载进度、「更新 / 以后再说」，全在页面底部同一块，不用上下找。别的没变。",
-  "size": 11535892,
+  "version": "1.27",
+  "notes": "v1.27：修的是「第一次用」这一段。以前有两处会把正常情况当成出问题：一，文件夹里还没有 PPT 时（刚装好当然没有），重启程序界面就写「待配置」，看着像从没下过、像有毛病——现在程序会先看一眼自己的文件夹，有就把它认回来（文件名、大小、时间都对上），没有就明说「还没有 PPT，点立即同步」，还配了一行第一次用的提示。二，网站上暂时还没有PPT 时（刚建站或正在生成），以前直接报红「有问题」，现在只写「网站还没出这一期，等它生成」，也不再每 30 秒往日志里刷一行。另外，下载途中这一期正好被新一期顶掉（404）也算正常，等下一轮自动同步取新的。",
+  "size": 11537112,
   "author": "王钧泽（Wang Junze）",
   "copyright": "© 2026 王钧泽，保留所有权利 / All rights reserved",
   "notice": "https://github.com/wang1357441/news-ppt-dist/blob/main/AI_NOTICE.md",
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.26",
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.27",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.26/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.26/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.26/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.27/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.27/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.27/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.26/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.26/NewsPPTDownloader.exe",
-    "sha256": "4368b9ed00aac9346adbb6e9b79c1228e59fc3478c8e6a255930c62390341b90",
-    "size": 11535892
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.27/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.27/NewsPPTDownloader.exe",
+    "sha256": "109850c8a0e5d1496751b4b90af26a1cda747d1a2e9f29985117745906b7ea25",
+    "size": 11537112
   },
-  "sig": "piVjjh/5SGHOSjYwKS924PfgT6ljYFwzCT0s0Ukfc/cvUgjlgOB7QUh1xO4GGs1J+QugLkDhcn2ASuUZ3EEHXX65l2kv/Msu5ydveAb4ORfPVis0IKULS+4i/c/t23VFfZ27icWBHf3GN9JWhK5Zd4Vg49PJ+9rt5YpxtrS5+HwxeALC/c2tf6hhShMBRLKHciBKWfPuuGdc56ha8XV0alWRwGgfMByVS3JBI1ElfUvIdOxfiQ/cvxW5g6i4UbxEJNDsPUJb/1AAgAs/MsW/P3O+O2NUmjkyAUTlFHTzl1GZ29WLrqZT5mjm7l+cufdw6G9pFHmlzPpfodVHqPcigQ=="
+  "sig": "pu/MYdhFSasQVnuyMyddQrkxcfOT1g9oiR06phN/bZUJVwdkcUt6dhxowIbLUXJS0E06dX6RBo8ErDRh3Shkuvj9anfxFUL2GGxby3Chf9uSU+Sux5i/fcIIOboPYMZ+hOPnkaMX4xK+0UnGxKgxzA+XRSfibCkNp5jauXQGRuFhttmXCYnn9PMOcZLuO2Eejul6z+m5IzyuIjwpe2upV0I/HXL9yxAtADOwHRve1MuVMwVV/vquD7KG/WZBwe8trryT+OWTItGQGn/lVmnEcBWqfpExVvjmt+9kla5pbRlP2OQvxVOL6YPkXANYItqVW882zYnIPh7vSWFVflFJIQ=="
 }
