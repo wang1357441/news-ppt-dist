@@ -1,21 +1,21 @@
 {
-  "version": "1.37",
-  "notes": "v1.37：换了个更结实的做法——PPT 改成在你自己的电脑上做，不再等网站。以前是「网站负责做，电脑负责下」，而网站是免费托管的空间，没人访问就会休眠，一睡就不出片了（11 月 22 日到 27 日整整五天没有新一期，就是这个原因）；网站一挂或者换域名，所有人的软件就同时没法用了。现在抓新闻、选三件事、配图配视频、拼 PPT，全都在本机完成：网站睡着、挂着、打不开，都不影响你出片；断网的时候，已经做好的那几期照样能打开看。窗口里能看到正在做哪一步，「立即生成一期」是马上现做一期，勾着「自动出片」就每到整点、半点自己出。网站还留着，作用变成把链接分享给别人在浏览器里看。（这版程序体积会大一些，因为把整套生成能力都装进来了。）",
-  "size": 34638989,
+  "version": "1.40",
+  "notes": "v1.40：界面换成真正的 Windows 窗口，不再借浏览器当画框。以前点一次可能开出好几个窗口、窗口一出来被别的文件压在下面、关掉之后还会留一串浏览器进程——这些毛病都是「借来的窗口」带来的，现在没有了。双击到窗口出现只要一两秒（以前要十几秒）；点右上角 × 不退出，会缩到右下角托盘里，定时出片照跑，要彻底退出就右键托盘图标点「退出」。另外两件：① 后台会提前把新闻和配图视频备好，点「立即生成一期」两秒就能出片；② 多了一个「选项」按钮，可以自己调五个加分项各占多少分，调乱了点「恢复默认」就回到它自己学出来的最新值。顺手修了选题跑偏的问题（「欧洲动态」里塞进山东曲阜的稿子这种）。体积反而小了：34.6MB → 24.5MB。",
+  "size": 25724689,
   "author": "王钧泽（Wang Junze）",
   "copyright": "© 2026 王钧泽，保留所有权利 / All rights reserved",
   "notice": "https://github.com/wang1357441/news-ppt-dist/blob/main/AI_NOTICE.md",
-  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.37",
+  "url": "https://github.com/wang1357441/news-ppt-dist/releases/tag/v1.40",
   "windows": {
     "urls": [
-      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.37/NewsPPTDownloader.exe",
-      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.37/NewsPPTDownloader.exe",
-      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.37/NewsPPTDownloader.exe"
+      "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.40/NewsPPTDownloader.exe",
+      "https://gh-proxy.com/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.40/NewsPPTDownloader.exe",
+      "https://ghfast.top/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.40/NewsPPTDownloader.exe"
     ],
-    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.37/NewsPPTDownloader.exe",
-    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.37/NewsPPTDownloader.exe",
-    "sha256": "a1c20683e3426c950c28041eefb3364e59ae055f7a5dbb68ad4c98cebf5e2837",
-    "size": 34638989
+    "url": "https://ghproxy.net/https://github.com/wang1357441/news-ppt-dist/releases/download/v1.40/NewsPPTDownloader.exe",
+    "fallback": "https://github.com/wang1357441/news-ppt-dist/releases/download/v1.40/NewsPPTDownloader.exe",
+    "sha256": "97de080885689043acbd1634b96a4ef1e6a34493059f4bf7ef1d51f6aae85b9c",
+    "size": 25724689
   },
-  "sig": "aocdFmuwyxR+ibcCm1sZI79+KpaBfSrLhRW4/Yqh742O2tMm6A1olSn+ngvLQln5K+Lj4FX5AyiF5PodqMNnQZEfo8r0rrDy5RFmPguhTLADFwqqkRu0ORo0Ozu+39n1mfn4QGzxpYgDQ/M61I4gWLEKpYP0DOjPyhgF8w+zp42GwgUJDWotPXed5Ajo4ya2QePGlKrr2ZgwrnzDeW53gBWaOnY9Ue7LGxVaxcGoBerdNU1EFfRyl21Ijmf1uk2saEKba+3E+oE2fkOmZVZEvP0+qjeXsoMakfOlUKLlMvcOXj5Ve/Bem/cr687/SDtpDrFek38y2t0q143eHYAGZA=="
+  "sig": "PPS7OkSaCCQmvgd710tc4nCEaI/vaI20SKkaaLYz5q0A7ZEYCCRnS/eJasnktsf0DtIeLhGXIF351dif7p1SnvcY1z80uxjp1Vb+ck3EeF7rvj4rjIFzhI/cgsHyJooldimvhrEnpBZGiDB0GKDPZ5UHW/ZAH37HNY6slQsw0R8xOFQoFSYil6GUgvFgRjdT6RpFzLl1Or/+H/aL0ZFsKv1XP5CdxFWuMQ3MZdPYyIwx2/z3a2MSrH96NjGzTdF+fLtP/kqqNhnj0eQncp+cZq3cireSrDvCJxLDMF4VOGSd4HGxHI9sMyAahG6GrONVGf+nzfIOqHjmu21UjU7FYw=="
 }
